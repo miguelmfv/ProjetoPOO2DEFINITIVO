@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 
 public class tela_principal extends JFrame implements ActionListener {
     JPanel tela = new JPanel();
-    ImageIcon icon = new ImageIcon("../../images.iconeapp.png");
+    // n funciona -- ImageIcon icon = new ImageIcon("../../images/iconeapp.png");
     public tela_principal(){
         getContentPane().add(tela);
         tela.setBackground(new Color(0x343541));
@@ -17,7 +17,7 @@ public class tela_principal extends JFrame implements ActionListener {
         setVisible(true);
         setLocationRelativeTo(null);
 
-        setIconImage(icon.getImage());
+        //setIconImage(icon.getImage());
     }
 
 
